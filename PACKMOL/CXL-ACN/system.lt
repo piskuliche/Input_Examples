@@ -1,0 +1,13 @@
+
+write_once("Data Boundary") {
+-20.0 20.0 xlo xhi
+-20.0 20.0 ylo yhi
+-20.0 20.0 zlo zhi
+}
+
+import ACN.lt
+import CO2.lt
+
+ACN = new ACN [57]
+CO2 = new CO2 [343]
+

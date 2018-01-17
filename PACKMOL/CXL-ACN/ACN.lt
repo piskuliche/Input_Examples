@@ -1,0 +1,17 @@
+ACN {
+write("Data Atoms") {
+$atom:ch3 $mol:. @atom:CH3 0.269 0.0000000 0.000000 0.00000
+$atom:c $mol:. @atom:C 0.129 0.000000     0.000000     1.466000
+$atom:n $mol:. @atom:N -0.398 1.229018     0.000000     0.733009
+}
+write("Data Bonds") {
+$bond:ch3c @bond:CH3N $atom:ch3 $atom:c
+$bond:cn @bond:CN $atom:c $atom:n
+}
+write("Data Angles") {
+$angle:ch3cn @angle:CH3CN $atom:ch3 $atom:c $atom:n
+}
+
+
+} # ACN
+

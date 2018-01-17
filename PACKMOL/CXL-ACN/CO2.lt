@@ -1,0 +1,17 @@
+CO2 {
+write("Data Atoms") {
+$atom:c1 $mol:. @atom:C  0.6512 2.603406 2.050544 0
+$atom:o1 $mol:. @atom:O -0.3256 3.763388 2.044000 0.000062
+$atom:o2 $mol:. @atom:O -0.3256 1.443422 2.056573 0
+}
+
+write("Data Bonds") {
+$bond:co1 @bond:CO $atom:c1 $atom:o1
+$bond:co2 @bond:CO $atom:c1 $atom:o2
+}
+write("Data Angles") {
+$angle:oco @angle:OCO $atom:o1 $atom:c1 $atom:o2
+}
+
+} # CO2
+
